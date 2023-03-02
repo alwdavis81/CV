@@ -1,0 +1,180 @@
+body {
+  background-color: #f0f1f5;
+  color: #40514e;
+  margin: 50px 25px 10px 25px;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  position: r;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: "Sacramento", cursive;
+  font-size: 5.625rem;
+  color: #66bfbf;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: #66bfbf;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #11999e;
+}
+
+p {
+  font-size: 1.6rem;
+  color: #40514e;
+  line-height: 2;
+}
+
+.bio {
+  width: 50%;
+  margin: 0 auto;
+}
+
+a {
+  color: #66bfbf;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #eaf6f6;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #40514e;
+  border-width: 5px;
+  width: 5%;
+  margin: 100px auto;
+}
+
+.navlogo {
+  position: absolute;
+  margin-top: 10px;
+  top: 0;
+  left: 50px;
+  font-weight: 800;
+  font-size: 3rem;
+}
+
+.navbar {
+  overflow: hidden;
+  margin-right: 50px;
+
+  position: relative;
+}
+
+.nav-item {
+  float: right;
+  color: #404360;
+  font-size: 1.4rem;
+}
+
+.nav-link {
+  padding: 0 20px;
+  color: #404360;
+  font-weight: 700;
+}
+
+.nav-link:hover {
+  color: #66bfbf;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 550px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 550px;
+  bottom: 300px;
+}
+
+.profile-picture {
+  width: 12%;
+}
+
+.code {
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+
+.mixer {
+  width: 20%;
+  float: right;
+  margin-left: 30px;
+  border-radius: 100px 100px 100px;
+}
+
+.active {
+  /* position: absolute; */
+  /* left: 150px; */
+}
+
+.top-container {
+  background-color: #404360;
+  position: relative;
+  margin-top: 25px;
+  padding-top: 100px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 0 auto;
+  margin: 100px auto;
+  text-align: left;
+}
+
+.middle-container {
+  margin: 100px;
+}
+
+.bottom-container {
+  background-color: #404360;
+  position: relative;
+  padding: 50px 0 20px;
+}
+
+.footer-link {
+  margin: 50px 16px;
+}
+
+.contact-message {
+  width: 50%;
+  margin: 0 auto 50px;
+}
+
+.btn {
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: #404989;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #66bfbf;
+    text-decoration: none;
+  }
+
+.copy {
+  color: #fff;
+  font-size: 1rem;
+  margin-top: 40px;
+}
